@@ -1,0 +1,66 @@
+body{
+    background-color: #121212;
+}
+
+.btnD
+{
+    background: none;
+	top: 30px;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+    color: #f1f1f8;
+    transition: .4s linear;
+    position: absolute;
+    cursor: pointer;
+
+
+}   
+
+.btnD:hover{
+	color: #dc3545;
+}
+
+.D{
+    top: 700px;
+    left: 405px;
+	background: #dc3545;
+	width: 300px;
+	height: 60px;
+	border: none;
+	border-radius: 1rem;
+	font-size: 20px;
+	font-weight: bold;
+    color: #f1f1f8;
+    transition: .4s linear;
+    position: relative;
+    cursor: pointer;
+}
+
+.mod1
+{
+    position: absolute;
+    top: 148px;
+    left: 1100px;
+}
+
+.mod2{
+      position: absolute;
+      top: 150px;
+      left: 400px
+}
+.D2{
+    top: 700px;
+    left: 800px;
+	background: #dc3545;
+	width: 300px;
+	height: 60px;
+	border: none;
+	border-radius: 1rem;
+	font-size: 20px;
+	font-weight: bold;
+    color: #f1f1f8;
+    transition: .4s linear;
+    position: relative;
+    cursor: pointer;
+}

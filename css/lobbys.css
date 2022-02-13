@@ -1,0 +1,183 @@
+body
+{
+   background-color: #121212;
+}
+
+.formules 
+{
+    color:  #f1f1f8;
+    font:  710 2.25rem/1.75rem "Montserrat",sans-serif;
+}
+
+.btn
+{
+	left: 10px;
+	background: #dc3545;
+	width: 160px;
+	height: 60px;
+	border: none;
+	border-radius: 1rem;
+	font-size: 20px;
+	font-weight: bold;
+    color: #f1f1f8;
+    transition: .4s linear;
+    position: relative;
+    cursor: pointer;
+
+
+}   
+
+.E1
+{
+   padding: auto;
+   width: 500px;
+   position: absolute;
+   top: 550px;
+   left: 120px;
+}
+
+.E2
+{
+	padding: auto;
+	width: 500px;
+	position: absolute;
+	top: 550px;
+	left: 780px;
+}
+
+.E3
+{
+	padding: auto;
+	width: 500px;
+	position: absolute;
+	top: 550px;
+	left: 1380px;
+}
+
+
+.E4
+{
+	padding: auto;
+	width: 500px;
+	position: absolute;
+	top: 510px;
+	left: 120px;
+}
+
+.E5
+{
+	padding: auto;
+	width: 500px;
+	position: absolute;
+	top: 480px;
+	left: 850px;
+}
+
+.btn2
+{
+    background: none;
+	top: 25px;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+    color: #f1f1f8;
+    transition: .4s linear;
+    position: relative;
+    cursor: pointer;
+
+
+}   
+
+.btn2:hover{
+	color: #dc3545;
+}
+
+.btn3
+{
+	left: 180px;
+	background: #dc3545;
+	top: 282px;
+	width: 150px;
+	height: 60px;
+	border: none;
+	border-radius: 1rem;
+	font-size: 20px;
+	font-weight: bold;
+	color: #f1f1f8;
+	transition: .4s linear;
+	position: absolute;
+	cursor: pointer;
+
+
+}
+
+#img {
+	position: relative;
+	top: 50px;
+	width: 100%;
+	overflow: hidden;
+	border: 3px solid #ADFF2F;
+
+}
+.images
+{
+   display: flex;
+   animation-duration: 230s;
+   animation-name: imgg;
+   animation-iteration-count: infinite;
+  
+}
+@keyframes imgg
+{
+	0% {
+		transform: translateX(0);
+	}
+
+	12.5% {
+		transform: translateX(-746);
+	}
+
+	25% {
+		transform: translateX(-1492);
+	}
+
+	37.5% {
+		transform: translateX(-2238);
+	}
+    
+	62.5% {
+	    transform: translateX(-2984px);
+	}
+
+	75% {
+	    transform: translateX(-3730px);
+	}
+
+	87.5% {
+	    transform: translateX(-4476px);
+	}
+
+	100%{
+	    transform: translateX(0px);
+	}
+}
+
+.btn4
+{
+    background: none;
+	top: 25px;
+    left: 1480px;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+    color: #f1f1f8;
+    transition: .4s linear;
+    position: relative;
+    cursor: pointer;
+
+
+}   
+
+.btn4:hover{
+	color: #dc3545;
+}

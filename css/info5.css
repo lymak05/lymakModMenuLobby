@@ -1,0 +1,113 @@
+body{
+    background: #121212;
+ 
+}
+
+.carre{
+    position: absolute;
+    top: 520px;
+    left: 900px;
+    border: 10px solid #dc3545 ;
+    width: 800px;
+    height: 370px;
+}
+
+.text
+{
+    color: #f1f1f8;
+    font:  710 2.25rem/1.75rem "Montserrat",sans-serif;
+    position: absolute;
+    top: 520px;
+    left: 950px;
+}
+
+#img {
+	position: relative;
+	top: 50px;
+	width: 1905px;
+	overflow: hidden;
+	border: 3px solid #ADFF2F;
+
+}
+.images
+{
+   display: flex;
+   animation-duration: 230s;
+   animation-name: imgg;
+   animation-iteration-count: infinite;
+  
+}
+@keyframes imgg
+{
+	0% {
+		transform: translateX(0);
+	}
+
+	12.5% {
+		transform: translateX(-746);
+	}
+
+	25% {
+		transform: translateX(-1492);
+	}
+
+	37.5% {
+		transform: translateX(-2238);
+	}
+    
+	62.5% {
+	    transform: translateX(-2984px);
+	}
+
+	75% {
+	    transform: translateX(-3730px);
+	}
+
+	87.5% {
+	    transform: translateX(-4476px);
+	}
+
+	100%{
+	    transform: translateX(0px);
+	}
+}
+
+
+.btn
+{
+	background: none;
+	width: 450px;
+	height: 80px;
+	border: 4px solid #dc3545;
+	font-size: 20px;
+	font-weight: bold;
+    color: #dc3545;
+    transition: .4s linear;
+    position: relative;
+	top: 190px;
+	left: 320px;
+    cursor: pointer;
+
+
+}   
+
+.btn:hover{
+	color: #f1f1f8;
+}
+
+.btn::before{
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 73px;
+	top: 0px;
+	left: 0px;
+    background-color: #dc3545;
+    z-index: -1;
+    transition: .4s linear;
+
+}
+
+.btn:hover::before{
+	width: 445px;
+}
