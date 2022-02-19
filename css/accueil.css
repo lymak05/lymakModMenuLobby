@@ -100,7 +100,7 @@ h3
     font-size: 60px;
     letter-spacing: 1px;
     margin-bottom: 150px;
-    animation: flash 8.2s linear infinite;
+    animation: flash 6.2s linear infinite;
 }
 
 @keyframes flash{
