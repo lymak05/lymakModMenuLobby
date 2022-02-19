@@ -62,7 +62,7 @@ body{
 	font-weight: bold;
     color: #f1f1f8;
     transition: .4s linear;
-    position: absolute;
+    position: relative;
     cursor: pointer;
 }
 
