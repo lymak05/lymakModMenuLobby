@@ -87,3 +87,22 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.btnD2{
+    top: 25px;
+    left: 84%;
+	background: none;
+	width: 300px;
+	height: 60px;
+	border: none;
+	border-radius: 1rem;
+	font-size: 20px;
+	font-weight: bold;
+    color: #f1f1f8;
+    transition: .4s linear;
+    position: relative;
+    cursor: pointer;
+}
+.btnD2:hover{
+    color: #f1f1f8;
+    background: #dc3545;
+}
