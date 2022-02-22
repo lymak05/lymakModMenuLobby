@@ -76,7 +76,8 @@ body
 .btn2
 {
     background: none;
-	top: 30px;
+	top: 25px;
+	left: 2%;
 	border: none;
 	font-size: 20px;
 	font-weight: bold;
