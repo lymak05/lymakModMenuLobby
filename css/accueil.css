@@ -168,3 +168,87 @@ h3
 	}
 
 
+.img1
+{
+    width: 724px;
+    height: 327px;
+    border: solid 5px #444040;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+}
+
+.p1
+{
+    color: #f1f1f8;
+    font:  700 2.75rem/1.75rem "Montserrat",sans-serif;
+    position: absolute;
+    top: 64%;
+    left: 8.5%;
+
+}
+
+.p2
+{
+    position: absolute;
+    top: 75%;
+    left: 7%;
+    font: 200 0.85rem/1.75rem "Montserrat",sans-serif;
+    color: #f1f1f8;
+}
+
+.p3
+{
+    position: absolute;
+    color: #c40014;
+    font:  700 2.75rem/1.75rem "Montserrat",sans-serif;
+    top: 64%;
+    left: 33%;
+}
+
+.carre
+{
+    position: absolute;
+    top: 54.5%;
+    margin: 0;
+    width: 1520px;
+    left: 0px;
+    border: solid 200px #0e0d0d;
+}
+
+.btn4
+{
+    top: 86%;
+	left: 16.5%;
+	background: none;
+	width: 260px;
+	height: 60px;
+	border: solid 3px #c40014;
+	border-radius: 1rem;
+	font-size: 20px;
+	font-weight: bold;
+    color: #f1f1f8;
+    transition: .4s linear;
+    position: absolute;
+    cursor: pointer;
+
+}   
+
+.btn4:hover
+{
+    background: #c40014;
+
+}
+
+.carre2
+{
+    top: 58%;
+    left: 4%;
+    position: absolute;
+    border: solid 5px #444040;
+    width: 42%;
+    height: 327px;
+
+}
+
+
