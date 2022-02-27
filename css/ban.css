@@ -1,0 +1,58 @@
+body
+{
+    background-color: #121212;
+}
+
+h1{
+    text-align: center;
+    font: 800 4.55rem/6.75rem "Montserrat",sans-serif;
+    color: #f1f1f1;
+
+}
+
+.btn1
+{
+    font:  700 1.25rem/1.75rem "Montserrat",sans-serif;
+    color: #dc3545;
+    border-radius: 2rem;
+    border: solid 2px #dc3545 ;
+    background: none;
+    width: 600px;
+    height: 60px;
+
+}
+
+.btn1:hover
+{
+    background-color: #dc3545;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.video{
+    
+    position: absolute;
+    width: 400px;
+    height: 150px;
+}
+
+
+.btn2
+{
+
+    font:  700 1.25rem/1.75rem "Montserrat",sans-serif;
+    color: #dc5c35;
+    border-radius: 2rem;
+    border: solid 2px #dc5c35;
+    background: none;
+    width: 200px;
+    height: 60px;
+
+}
+
+.btn2:hover
+{
+    background-color: #dc5c35;
+    color: #f1f1f1;
+    cursor: pointer;
+}
